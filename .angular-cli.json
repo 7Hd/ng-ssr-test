@@ -29,23 +29,16 @@
       }
     },
     {
-      // This is your server app. It is app 1.
       "platform": "server",
       "root": "src",
-      // Build to dist-server instead of dist. This prevents
-      // client and server builds from overwriting each other.
       "outDir": "dist-server",
       "assets": [
         "assets",
         "favicon.ico"
       ],
       "index": "index.html",
-      // Change the main file to point to your server main.
       "main": "main.server.ts",
-      // Remove polyfills.
-      // "polyfills": "polyfills.ts",
       "test": "test.ts",
-      // Change the tsconfig to point to your server config.
       "tsconfig": "tsconfig.server.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
