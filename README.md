@@ -1,6 +1,6 @@
 # NG SSR Test
 
-This project was generated with Angular CLI version 1.3.0.
+This project was generated with Angular CLI version 1.3.0. (`ng new ng-ssr-test --routing --minimal`)
 
 Follow [stories universal rendering](https://github.com/angular/angular-cli/wiki/stories-universal-rendering)
 
