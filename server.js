@@ -29,6 +29,9 @@ app.get('/api', (req, res) => {
   res.json({ data: 'Content from HTTP request.' });
 });
 
+app.get('/api/a', (req, res) => { res.json({ data: 'A' }); });
+app.get('/api/b', (req, res) => { res.json({ data: 'B' }); });
+
 app.engine('html', ngUniversal.ngExpressEngine({
   bootstrap: appServer.AppServerModuleNgFactory
 }));
