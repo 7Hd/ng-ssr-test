@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
     <h1>
       Welcome to {{title}}!!
     </h1>
+    <nav>
+      <a routerLink="/a" routerLinkActive="active">A Component</a>
+      <a routerLink="/b" routerLinkActive="active">B Component</a>
+    </nav>
     <router-outlet></router-outlet>
   `,
   styles: []
